@@ -53,7 +53,6 @@
     color: $white;
     margin-bottom: 40px;
   }
-
   &__mini-box {
     position: relative;
     margin-left: auto;
@@ -71,7 +70,6 @@
       background-size: contain;
     }
   }
-
   &__text {
     width: 405px;
     text-align: start;
@@ -82,7 +80,6 @@
     color: $white;
     margin-bottom: 40px;
   }
-
   &__button {
     @include template-button;
   }
@@ -226,7 +223,6 @@
       padding-left: 24px;
       @include df-column-center-center;
     }
-
     &__title {
       width: 100%;
       text-align: center;
@@ -237,11 +233,9 @@
       color: $white;
       margin-bottom: 24px;
     }
-
     &__mini-box {
       @include df-column-center-center;
     }
-
     &__text {
       width: 100%;
       text-align: center;
@@ -252,7 +246,6 @@
       color: $white;
       margin-bottom: 34px;
     }
-
     &__button {
       @include template-button;
     }

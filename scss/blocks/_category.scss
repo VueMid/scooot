@@ -15,14 +15,12 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-
   &__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
   }
-
   &__box {
     display: flex;
     flex-direction: column;
@@ -30,20 +28,17 @@
     align-items: start;
     gap: 0px;
   }
-
   &__icons {
     width: 96px;
     height: 96px;
     margin-bottom: 40px;
   }
-
   &__mini-boxes {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
   }
-
   &__titles {
     font-family: "Space Mono";
     margin-bottom: 27px;
@@ -82,14 +77,12 @@
       background-repeat: no-repeat;
       background-size: contain;
     }
-
     &__container {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: start;
     }
-
     &__box {
       display: flex;
       flex-direction: column;
@@ -97,20 +90,17 @@
       align-items: start;
       gap: 0px;
     }
-
     &__icons {
       width: 96px;
       height: 96px;
       margin-bottom: 40px;
     }
-
     &__mini-boxes {
       display: flex;
       flex-direction: column;
       justify-content: start;
       align-items: start;
     }
-
     &__titles {
       font-family: "Space Mono";
       margin-bottom: 27px;
@@ -149,7 +139,6 @@
       background-image: url("../../icons/vertical__path.svg");
       background-size: contain;
     }
-
     &__container {
       padding-right: 40px;
       padding-left: 40px;
@@ -159,7 +148,6 @@
       align-items: center;
       gap: 41px;
     }
-
     &__box {
       display: flex;
       flex-direction: row;
@@ -167,19 +155,16 @@
       align-items: start;
       gap: 79px;
     }
-
     &__icons {
       width: 96px;
       height: 96px;
     }
-
     &__mini-boxes {
       display: flex;
       flex-direction: column;
       justify-content: start;
       align-items: start;
     }
-
     &__titles {
       font-family: "Space Mono";
       margin-bottom: 26px;
@@ -218,7 +203,6 @@
       background-image: url("../../icons/vertical__path.svg");
       background-size: contain;
     }
-
     &__container {
       padding-right: 40px;
       padding-left: 40px;
@@ -228,7 +212,6 @@
       align-items: center;
       gap: 41px;
     }
-
     &__box {
       display: flex;
       flex-direction: row;
@@ -236,19 +219,16 @@
       align-items: start;
       gap: 79px;
     }
-
     &__icons {
       width: 96px;
       height: 96px;
     }
-
     &__mini-boxes {
       display: flex;
       flex-direction: column;
       justify-content: start;
       align-items: start;
     }
-
     &__titles {
       font-family: "Space Mono";
       margin-bottom: 26px;
@@ -288,7 +268,6 @@
       background-repeat: no-repeat;
       background-size: contain;
     }
-
     &__container {
       padding-right: 40px;
       padding-left: 40px;
@@ -298,7 +277,6 @@
       align-items: center;
       gap: 41px;
     }
-
     &__box {
       display: flex;
       flex-direction: row;
@@ -306,19 +284,16 @@
       align-items: start;
       gap: 79px;
     }
-
     &__icons {
       width: 96px;
       height: 96px;
     }
-
     &__mini-boxes {
       display: flex;
       flex-direction: column;
       justify-content: start;
       align-items: start;
     }
-
     &__titles {
       font-family: "Space Mono";
       margin-bottom: 26px;
@@ -358,7 +333,6 @@
       background-repeat: no-repeat;
       background-size: contain;
     }
-
     &__container {
       padding-right: 40px;
       padding-left: 40px;
@@ -368,7 +342,6 @@
       align-items: center;
       gap: 41px;
     }
-
     &__box {
       display: flex;
       flex-direction: row;
@@ -376,19 +349,16 @@
       align-items: start;
       gap: 79px;
     }
-
     &__icons {
       width: 96px;
       height: 96px;
     }
-
     &__mini-boxes {
       display: flex;
       flex-direction: column;
       justify-content: start;
       align-items: start;
     }
-
     &__titles {
       font-family: "Space Mono";
       margin-bottom: 26px;
@@ -436,7 +406,6 @@
       align-items: center;
       gap: 48px;
     }
-
     &__box {
       display: flex;
       flex-direction: column;
@@ -444,20 +413,17 @@
       align-items: center;
       gap: 0px;
     }
-
     &__icons {
       width: 56px;
       height: 56px;
       margin-bottom: 24px;
     }
-
     &__mini-boxes {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
-
     &__titles {
       font-family: "Space Mono";
       margin-bottom: 24px;

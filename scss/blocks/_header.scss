@@ -4,12 +4,10 @@
     padding-bottom: 22px;
     @include df-row-between-center;
   }
-
   &__left-box {
     @include df-row-center-center;
     gap: 58.18px;
   }
-
   &__logo-link {
     transition: 100ms ease all;
     &:active {
@@ -17,26 +15,20 @@
       opacity: 0.4;
     }
   }
-
   &__logo-image {
     vertical-align: middle;
   }
-
   &__nav {
     display: block;
   }
-
   &__list {
     @include df-row-center-center;
     gap: 32px;
   }
-
   &__lists {
   }
-
   &__links {
   }
-
   &__links-texts {
     font-family: "Space Mono";
     font-weight: bold;
@@ -45,28 +37,23 @@
     letter-spacing: 0px;
     color: $dim__grey;
   }
-
   &__button {
     @include template-button;
     display: block;
   }
-
   &__burger-button {
     display: none;
     border: none;
     outline: none;
     background: none;
   }
-
   &__open-burger-icon {
     vertical-align: middle;
   }
-
   &__close-burger-icon {
     display: none;
     vertical-align: middle;
   }
-
   &__mb-nav {
     z-index: 1110;
     position: fixed;
@@ -90,13 +77,10 @@
     align-items: start;
     gap: 24px;
   }
-
   &__mb-lists {
   }
-
   &__mb-links {
   }
-
   &__mb-links-texts {
     color: $light__grey;
     font-family: "Space Mono";
@@ -108,7 +92,6 @@
       color: $yellow;
     }
   }
-
   &__mb-button {
     display: none;
     margin-top: 337px;
@@ -131,12 +114,10 @@
       padding: 22px 40px;
       @include df-row-between-center;
     }
-
     &__left-box {
       @include df-row-center-center;
       gap: 58.18px;
     }
-
     &__logo-link {
       transition: 100ms ease all;
       &:active {
@@ -144,26 +125,20 @@
         opacity: 0.4;
       }
     }
-
     &__logo-image {
       vertical-align: middle;
     }
-
     &__nav {
       display: block;
     }
-
     &__list {
       @include df-row-center-center;
       gap: 32px;
     }
-
     &__lists {
     }
-
     &__links {
     }
-
     &__links-texts {
       font-family: "Space Mono";
       font-weight: bold;
@@ -172,28 +147,23 @@
       letter-spacing: 0px;
       color: $dim__grey;
     }
-
     &__button {
       @include template-button;
       display: block;
     }
-
     &__burger-button {
       display: none;
       border: none;
       outline: none;
       background: none;
     }
-
     &__open-burger-icon {
       vertical-align: middle;
     }
-
     &__close-burger-icon {
       display: none;
       vertical-align: middle;
     }
-
     &__mb-nav {
       z-index: 1110;
       position: fixed;
@@ -217,13 +187,10 @@
       align-items: start;
       gap: 24px;
     }
-
     &__mb-lists {
     }
-
     &__mb-links {
     }
-
     &__mb-links-texts {
       color: $light__grey;
       font-family: "Space Mono";
@@ -235,7 +202,6 @@
         color: $yellow;
       }
     }
-
     &__mb-button {
       display: none;
       margin-top: 337px;
@@ -259,10 +225,8 @@
       padding: 24px 24px;
       @include df-row-reverse-between-center;
     }
-
     &__left-box {
     }
-
     &__logo-link {
       transition: 100ms ease all;
       &:active {
@@ -270,47 +234,36 @@
         opacity: 0.4;
       }
     }
-
     &__logo-image {
       vertical-align: middle;
     }
-
     &__nav {
       display: none;
     }
-
     &__list {
     }
-
     &__lists {
     }
-
     &__links {
     }
-
     &__links-texts {
     }
-
     &__button {
       display: none;
     }
-
     &__burger-button {
       display: block;
       border: none;
       outline: none;
       background: none;
     }
-
     &__open-burger-icon {
       vertical-align: middle;
     }
-
     &__close-burger-icon {
       display: none;
       vertical-align: middle;
     }
-
     &__mb-nav {
       z-index: 1110;
       position: fixed;
@@ -334,13 +287,10 @@
       align-items: start;
       gap: 24px;
     }
-
     &__mb-lists {
     }
-
     &__mb-links {
     }
-
     &__mb-links-texts {
       color: $light__grey;
       font-family: "Space Mono";
@@ -352,7 +302,6 @@
         color: $yellow;
       }
     }
-
     &__mb-button {
       display: block;
       margin-top: 337px;

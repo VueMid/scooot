@@ -1,9 +1,10 @@
 :root {
   --white: #ffffff;
   --black: #000000;
+  --yellow: #fcb72b;
 }
 ::selection {
-  background-color: var(--black);
+  background-color: var(--yellow);
   color: var(--white);
 }
 *,
