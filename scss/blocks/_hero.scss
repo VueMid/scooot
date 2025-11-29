@@ -86,12 +86,14 @@
 }
 @media (max-width: 1024px) {
   .hero {
+    height: 100vh;
+    @include df-column-center-center;
     position: relative;
     padding-top: 137px;
     padding-bottom: 217px;
     width: 100%;
     background-image: url("../../images/hero__background-tb.jpg");
-    background-position: top left;
+    background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
     &::before {
@@ -186,12 +188,14 @@
 }
 @media (max-width: 767px) {
   .hero {
+    height: 100vh;
+    @include df-column-center-center;
     position: relative;
     padding-top: 115px;
     padding-bottom: 179px;
     width: 100%;
     background-image: url("../../images/hero__background-mb.jpg");
-    background-position: top left;
+    background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
     &::before {

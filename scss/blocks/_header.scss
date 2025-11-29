@@ -110,6 +110,12 @@
 }
 @media (max-width: 1024px) {
   .header {
+    top: 0;
+    box-shadow: rgba(252, 182, 43, 0.753) 0px 5px 15px;
+    z-index: 1111;
+    width: 100%;
+    background-color: $white;
+    position: fixed;
     &__container {
       padding: 22px 40px;
       @include df-row-between-center;
@@ -167,7 +173,7 @@
     &__mb-nav {
       z-index: 1110;
       position: fixed;
-      top: 77px;
+      top: 99px;
       left: 0;
       padding: 64px 0 24px 24px;
       width: 80%;
@@ -222,7 +228,6 @@
 @media (max-width: 767px) {
   .header {
     &__container {
-      padding: 24px 24px;
       @include df-row-reverse-between-center;
     }
     &__left-box {
@@ -267,7 +272,7 @@
     &__mb-nav {
       z-index: 1110;
       position: fixed;
-      top: 77px;
+      top: 73px;
       left: 0;
       padding: 64px 0 24px 24px;
       width: 80%;
