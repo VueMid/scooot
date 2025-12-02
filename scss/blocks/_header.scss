@@ -228,6 +228,7 @@
 @media (max-width: 767px) {
   .header {
     &__container {
+      padding: 24px 24px;
       @include df-row-reverse-between-center;
     }
     &__left-box {

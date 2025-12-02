@@ -1,18 +1,19 @@
-.easy {
+.urban {
   position: relative;
-  margin-top: 145px;
+  margin-top: 156px;
   z-index: 2;
   &::after {
     position: absolute;
     content: "";
     display: inline-block;
-    width: 741px;
+    width: 356px;
     height: 151px;
-    right: 0;
-    bottom: 0;
-    background-image: url("../../icons/easy__vector.svg");
+    left: 0;
+    top: 0;
+    background-image: url("../../icons/urban__vector.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left center;
   }
   &::before {
     z-index: -1;
@@ -21,14 +22,15 @@
     display: inline-block;
     width: 95px;
     height: 445px;
-    right: -0px;
+    left: 0px;
     top: 0px;
     background-image: url("../../icons/easy__mask-tb.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    transform: rotate(180deg);
   }
   &__container {
-    @include df-row-between-center;
+    @include df-row-reverse-between-center;
     gap: 56px;
   }
   &__left-box {
@@ -54,9 +56,6 @@
     letter-spacing: 0px;
     color: $dim__grey;
   }
-  &__button {
-    @include template-button;
-  }
   &__image {
     width: 445px;
     height: 445px;
@@ -64,18 +63,18 @@
   }
 }
 @media (max-width: 1024px) {
-  .easy {
+  .urban {
     position: relative;
-    margin-top: 145px;
+    margin-top: 120px;
     &::after {
       position: absolute;
       content: "";
       display: inline-block;
-      width: 735px;
+      width: 355px;
       height: 151px;
-      right: 0;
-      top: 37%;
-      background-image: url("../../icons/easy__vector-tb.svg");
+      left: 0;
+      top: 0%;
+      background-image: url("../../icons/urban__vector-tb.svg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: left center;
@@ -86,12 +85,13 @@
       display: inline-block;
       width: 95px;
       height: 445px;
-      right: 0;
+      left: 0;
       top: 0px;
       background-image: url("../../icons/easy__mask-tb.svg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: left center;
+      transform: rotate(180deg);
     }
     &__container {
       padding-right: 40px;
@@ -122,9 +122,6 @@
       letter-spacing: 0px;
       color: $dim__grey;
     }
-    &__button {
-      @include template-button;
-    }
     &__image {
       width: 445px;
       height: 445px;
@@ -133,21 +130,20 @@
   }
 }
 @media (max-width: 767px) {
-  .easy {
+  .urban {
     position: relative;
     margin-top: 120px;
     &::after {
       position: absolute;
       content: "";
       display: inline-block;
-      width: 349px;
+      width: 348px;
       height: 151px;
-      right: 0;
-      top: 25%;
-      background-image: url("../../icons/easy__vector-mb.svg");
+      left: 0px;
+      top: 0px;
+      background-image: url("../../icons/urban__vector-mb.svg");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: left center;
     }
     &::before {
       position: absolute;
@@ -157,7 +153,7 @@
       height: 445px;
       right: 0;
       top: 0px;
-      background-image: url("../../icons/easy__mask-tb.svg");
+      background-image: url("../../icons/urban__mask-tb.svg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: left center;
@@ -190,9 +186,6 @@
       line-height: 25px;
       letter-spacing: 0px;
       color: $dim__grey;
-    }
-    &__button {
-      @include template-button;
     }
     &__image {
       width: 311px;
