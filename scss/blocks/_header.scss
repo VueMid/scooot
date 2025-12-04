@@ -10,10 +10,6 @@
   }
   &__logo-link {
     transition: 100ms ease all;
-    &:active {
-      transition: 100ms ease all;
-      opacity: 0.4;
-    }
   }
   &__logo-image {
     vertical-align: middle;
@@ -27,7 +23,8 @@
   }
   &__lists {
   }
-  &__links {
+  &__links.online .header__links-texts {
+    color: $yellow;
   }
   &__links-texts {
     font-family: "Space Mono";
@@ -88,9 +85,6 @@
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0px;
-    &:visited {
-      color: $yellow;
-    }
   }
   &__mb-button {
     display: none;
@@ -143,7 +137,8 @@
     }
     &__lists {
     }
-    &__links {
+    &__links.online .header__links-texts {
+      color: $yellow;
     }
     &__links-texts {
       font-family: "Space Mono";
@@ -204,9 +199,6 @@
       font-size: 18px;
       line-height: 25px;
       letter-spacing: 0px;
-      &:visited {
-        color: $yellow;
-      }
     }
     &__mb-button {
       display: none;
@@ -295,7 +287,8 @@
     }
     &__mb-lists {
     }
-    &__mb-links {
+    &__mb-links.online .header__mb-links-texts {
+      color: $yellow;
     }
     &__mb-links-texts {
       color: $light__grey;
@@ -304,9 +297,6 @@
       font-size: 18px;
       line-height: 25px;
       letter-spacing: 0px;
-      &:visited {
-        color: $yellow;
-      }
     }
     &__mb-button {
       display: block;

@@ -27,7 +27,8 @@
   }
   &__lists {
   }
-  &__links {
+  &__links.online .footer__links-texts {
+    color: $yellow;
   }
   &__links-texts {
     color: $dim__grey;
@@ -83,7 +84,8 @@
     }
     &__lists {
     }
-    &__links {
+    &__links.online .footer__links-texts {
+      color: $yellow;
     }
     &__links-texts {
       color: $dim__grey;
@@ -138,7 +140,8 @@
     }
     &__lists {
     }
-    &__links {
+    &__links.online .footer__links-texts {
+      color: $yellow;
     }
     &__links-texts {
       color: $dim__grey;
