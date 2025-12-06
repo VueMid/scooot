@@ -47,6 +47,7 @@
     padding: 32px 40px;
     @include df-column-center-start;
     gap: 32px;
+    cursor: pointer;
     background-color: $snow;
   }
   &__bottom-mini-open-boxes {
@@ -63,7 +64,7 @@
     color: $dark__navy;
   }
   &__bottom-mini-boxes-texts {
-    display: block;
+    display: none;
     width: 650px;
     font-family: "Space Mono";
     font-weight: bold;
