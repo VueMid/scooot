@@ -1,0 +1,97 @@
+.message {
+  margin-top: 120.19px;
+  &__container {
+    @include df-row-between-center;
+  }
+  &__title {
+    text-align: start;
+    width: 351px;
+    font-family: "Space Mono";
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    color: $dark__navy;
+  }
+  &__text {
+    text-align: start;
+    width: 445px;
+    font-family: "Lexend Deca";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: $dim__grey;
+  }
+  &__button {
+    @include template-button;
+  }
+}
+@media (max-width: 1024px) {
+  .message {
+    margin-top: 64px;
+    &__container {
+      @include df-column-center-center;
+      padding-right: 40px;
+      padding-left: 40px;
+      gap: 40px;
+    }
+    &__title {
+      text-align: center;
+      width: 457px;
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14px;
+      color: $dark__navy;
+    }
+    &__text {
+      text-align: center;
+      width: 100%;
+      font-family: "Lexend Deca";
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+    }
+    &__button {
+      @include template-button;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .message {
+    margin-top: 72px;
+    &__container {
+      @include df-column-center-center;
+      padding-right: 24px;
+      padding-left: 24px;
+      gap: 32px;
+    }
+    &__title {
+      text-align: center;
+      width: 100%;
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -1.43px;
+      color: $dark__navy;
+    }
+    &__text {
+      text-align: center;
+      width: 100%;
+      font-family: "Lexend Deca";
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+    }
+    &__button {
+      @include template-button;
+    }
+  }
+}
